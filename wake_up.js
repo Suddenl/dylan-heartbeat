@@ -129,7 +129,7 @@ async function sendPushNotification({ title, body }) {
   }
 
   const barkPayload = {
-    title,
+    title:"G先生^ ^",
     body,
     device_key: process.env.BARK_KEY,
     icon: process.env.CUSTOM_ICON_URL
